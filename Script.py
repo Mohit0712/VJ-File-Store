@@ -9,8 +9,7 @@ class script(object):
 
 
     
-    CAPTION = """<b> For More Movies :- <a href = "https://AdultBazar.com.tr"> AdultBazarMovies </a>
-
+    CAPTION = """<b> <center> <a href = "https://AdultBazar.com.tr"> AdultBazarMovies </a></center>
 • Jᴏɪɴ [ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ](https://t.me/AdultBazar)
 • Free Horror Movies <a href="https://BhootBazarMovies.com"> Click Here </a></b>""" 
 
