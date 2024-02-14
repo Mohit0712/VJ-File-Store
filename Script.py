@@ -9,10 +9,10 @@ class script(object):
 
 
     
-    CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : <a href = "https://AdultBazar.com.tr"> @AdultBazarMovies </a>{file_name}
+    CAPTION = """<b> For More Movies :- <a href = "https://AdultBazar.com.tr"> AdultBazarMovies </a>
 
 • Jᴏɪɴ [ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ](https://t.me/AdultBazar)
-• 𝗙𝗿𝗲𝗲 𝗛𝗼𝗿𝗿𝗼𝗿 𝗠𝗼𝘃𝗶𝗲𝘀 :- :- <a href="https://BhootBazarMovies.com"> 𝗖𝗹𝗶𝗰𝗸 𝗛𝗲𝗿𝗲 </a></b>""" 
+• Free Horror Movies <a href="https://BhootBazarMovies.com"> Click Here </a></b>""" 
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
