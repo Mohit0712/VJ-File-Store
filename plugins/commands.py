@@ -151,7 +151,7 @@ async def start(client, message):
         sts = await message.reply("**🔺 ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ**")
         b_string = data.split("-", 1)[1]
         decoded = (base64.urlsafe_b64decode(b_string + "=" * (-len(b_string) % 4))).decode("ascii")
-        await message.reply_text(f"<b>Powred By :- <a href="https://BhootBazarMovies"> Bhoot Bazar Movies </a>")
+        await message.reply_text(f"<b>Powred By :- <a href="https://BhootBazarMovies"> Bhoot Bazar Movies </a> {AUTO_DELETE}")
                
         try:
             f_msg_id, l_msg_id, f_chat_id, protect = decoded.split("_", 3)
@@ -173,7 +173,7 @@ async def start(client, message):
                     file_name = getattr(media, 'file_name', '')
                     f_caption = getattr(msg, 'caption', file_name)
                 try:
-                    h = await message.reply_text(f"<b>Powred By :- <a href="https://BhootBazarMovies"> Bhoot Bazar Movies </a>  </b>")
+                    h = await message.reply_text(f"<b>Powred By :- <a href="https://BhootBazarMovies"> Bhoot Bazar Movies  </a>  {AUTO_DELETE}</b>")
                     k = await msg.copy(message.chat.id, caption=f_caption, protect_content=True if protect == "/pbatch" else False)
                     
                     asyncio.create_task(delete_after_delay(k, AUTO_DELETE_TIME))
@@ -235,7 +235,7 @@ async def start(client, message):
                     ]
                 )
             )
-            k = await msg.reply(f"<b><u> Download Free Horror Movies :- https://BhootBazarMovies.com ",quote=True)
+            k = await msg.reply(f"<b><u> Download Free Horror Movies :- https://BhootBazarMovies.com {AUTO_DELETE} ",quote=True)
             await asyncio.sleep(AUTO_DELETE_TIME)
             await msg.delete()
             await g.delete()
