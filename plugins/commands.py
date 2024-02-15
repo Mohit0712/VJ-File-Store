@@ -173,7 +173,7 @@ async def start(client, message):
                     file_name = getattr(media, 'file_name', '')
                     f_caption = getattr(msg, 'caption', file_name)
                 try:
-                    h = await message.reply_text(f"<b> Powered By <a href="https://BhootBazarMovies.com"> Bhoot Bazar Movies </a>  {AUTO_DELETE}  </b>")
+                    h = await message.reply_text(f"<b> https://BhootBazarMovies.com  {AUTO_DELETE}  </b>")
                     k = await msg.copy(message.chat.id, caption=f_caption, protect_content=True if protect == "/pbatch" else False)
                     
                     asyncio.create_task(delete_after_delay(k, AUTO_DELETE_TIME))
@@ -235,7 +235,7 @@ async def start(client, message):
                     ]
                 )
             )
-            k = await msg.reply(f"<b><u>  Powered By <a href="https://BhootBazarMovies.com"> Bhoot Bazar Movies </a>  {AUTO_DELETE} mins</u> 🫥 <i></b>",quote=True)
+            k = await msg.reply(f"<b>https://BhootBazarMovies.com    {AUTO_DELETE} </b>",quote=True)
             await asyncio.sleep(AUTO_DELETE_TIME)
             await msg.delete()
             await g.delete()
